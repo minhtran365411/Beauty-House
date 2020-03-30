@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Katarzyna Krakowska, Minh Tran, Edgars Becs">
+    <meta name="description" content="add description here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+	<!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Home</title>
+
+    <!--tab icon-->
+    <link rel="icon" type="image/ico" href="icon/bh_logo.ico" />
+
+</head>
+
+<body>
+    <a id="header"></a>
+
+
+	 
+		<!--Begin Navigation-->
+			<nav>
+				<!--start nav-->
+<div class="overlay">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+
+			<a class="navbar-brand" href="index.php">
+					<video class="logo_nav" autoplay loop muted>
+                        <source src="video/bhlogo2.mp4" type="video/mp4">
+                        <source src="video/bhlogo2.mp4" type="video/ogg"> Your browser does not support the video tag.
+                    </video>
+					</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item <?php if($page=='home'){echo 'active';} ?>">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item <?php if($page=='about'){echo 'active';} ?>">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item <?php if($page=='services'){echo 'active';} ?>">
+                        <a class="nav-link dropdown-toggle " href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Services</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="service1.html">Hand/Foot treatment</a>
+							<a class="dropdown-item" href="service2.html">Facial treatment</a>
+							<a class="dropdown-item" href="service3.html">Body treatment</a>
+                        </div>
+                    </li>
+                    <li class="nav-item <?php if($page=='gallery'){echo 'active';} ?>">
+                        <a class="nav-link " href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item <?php if($page=='contact'){echo 'active';} ?>">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                
+                    <li class="nav-item <?php if($page=='shop'){echo 'active';} ?>">
+                        <a class="nav-link " href="shop.html">Shopping<i class="fa fa-cart-plus fa-lg"></i></a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </nav>
+</div>
+        <!--end nav-->
+			</nav>
+		<!--End Navigation-->
+        
+
+    <!-- Start content here -->
+        <div class="container thanks">
+             <div class="alert alert-success" role="alert">
+                <h3 class="alert-heading">Thank you!</h3>
+                    <p>We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the phone number listed below to talk to one of our staff members or make a booking. Otherwise, we will reply by email as soon as possible.
+                    Talk to you soon.</p>
+                <hr>
+                    <p class="mb-0">Whenever you need to make/cancel a booking please email us or call us on our phone number provided.</p>
+            </div>
+    </div>
+        
+		<!--Begin footer-->
+		<footer>
+			<?php include("footer.php") ?>
+		</footer>
+		<!--End footer-->
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
