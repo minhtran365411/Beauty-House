@@ -59,16 +59,16 @@
                     <h6 class="text-uppercase font-weight-bold">USEFUL LINKS</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p class="footer-link">
-                        <a href="index.php">HOME</a>
+                        <a href="index.html">HOME</a>
                     </p>
                     <p class="footer-link">
-                        <a href="shop.php">SHOP</a>
+                        <a href="shop.html">SHOP</a>
                     </p>
                     <p class="footer-link">
-                        <a href="contact.php">CONTACT</a>
+                        <a href="contact.html">CONTACT</a>
                     </p>
                     <p class="footer-link">
-                        <a href="sitemap.php">SITE MAP</a>
+                        <a href="sitemap.html">SITE MAP</a>
                     </p>
 
                 </div>
